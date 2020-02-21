@@ -16,9 +16,9 @@ tags:
 For our first interview we'll try to keep it a bit short. 
 
 ### Quick Introduction
-I'm Hampus Londögård, 25 years living in Lund and working at AFRY for a secret client.  
-I've been working at AFRY for almost 2 years now and also did my Master Thesis before that at AFRY.   
-When I'm not working you'll probably either see me in the sofa watching TV, working out, on AWs or programming some private project.
+| - | - |
+|---|---|
+| I'm Hampus Londögård, 25 years living in Lund and working at AFRY for a secret client.  I've been working at AFRY for almost 2 years now and also did my Master Thesis before that at AFRY.   When I'm not working I usually find myself either working out, watching TV from the sofa, on AWs or programming some private project. | ![Hampus](https://avatars2.githubusercontent.com/u/7490199?s=460&v=4) |
 
 As a side note,I love both Kotlin & Natural Language Processing (which means that you structure data out of natural language), so if you have any ideas or something you'd like to discuss I want in!
 
