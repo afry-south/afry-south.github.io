@@ -1,7 +1,7 @@
 ---
 title: "Meet: Hampus Londögård"
 categories:
-  - Interview
+  - Meet
   - Machine-Learning
   - Competence
 tags:
@@ -10,15 +10,14 @@ tags:
   - deep-learning
   - nlp
   - interview
+  - meet
 ---
-
-# Meet Hampus Londögård
-For our first interview we'll try to keep it a bit short. 
+![Hampus](https://oneportalstoragecdn.azureedge.net/oneprofilepictures/a35142fc-9754-4619-9d11-8544b7728409.png?v=20180302151258)  
+Welcome to our first interview/'meet X' where Hampus Londögård (see image above) is the first candidate, with more coming.  
+As this is the first one we'll keep it light and please come with feedback on what type of questions we should ask!
 
 ### Quick Introduction
-| - | - |
-|---|---|
-| I'm Hampus Londögård, 25 years living in Lund and working at AFRY for a secret client.  I've been working at AFRY for almost 2 years now and also did my Master Thesis before that at AFRY.   When I'm not working I usually find myself either working out, watching TV from the sofa, on AWs or programming some private project. | ![Hampus](https://avatars2.githubusercontent.com/u/7490199?s=460&v=4) |
+I'm Hampus Londögård, 25 years living in Lund and working at AFRY for a secret client.  I've been working at AFRY for almost 2 years now and also did my Master Thesis before that at AFRY.   When I'm not working I usually find myself either working out, watching TV from the sofa, on AWs or programming some private project.
 
 As a side note,I love both Kotlin & Natural Language Processing (which means that you structure data out of natural language), so if you have any ideas or something you'd like to discuss I want in!
 
@@ -42,3 +41,9 @@ It's really fun to be able to show & have people use the projects while at the s
 For the interested most of my projects can be found under this GitHub: [londogard](https://github.com/londogard) but some are available directly under me: [Lundez](https://github.com/Lundez?tab=repositories).
 
 And if you think it'd be fun to join in, just reach out and we can figure something out! :D
+
+
+---
+
+**Outro**  
+Please come with feedback so we can improve these smaller interviews with better questions & format.
