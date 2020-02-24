@@ -14,9 +14,9 @@ Most of my Competence Meetings take place in the form of Jupyter Notebooks (`.ip
 This is really good in combination with the workshop-format that we usually have. 
 Using services such as [Google Colab](colab.research.google.com) one can take the file and open it in the browser and run it there. This means that we don't need any downloads and pretty often we also have a speed gain because the node used is faster than a laptop with its GPU. 
 
-Forward you can access this blog on my [website](https://londogard.com/#/blog/2) too and finally the notebook is available on [GitHub](https://github.com/afry-south/nlp-competence/blob/master/python/20190204-Text-Classification-IMDB.ipynb) & you can open it directly in Google Colab and start coding within seconds ([here's](https://colab.research.google.com/github/afry-south/nlp-competence/blob/master/python/20190204-Text-Classification-IMDB.ipynb) a deep link for the lazy)!
+Forward you can access this blog on my [website](https://londogard.com/#/blog/2) too and finally the notebook is available on [GitHub](https://github.com/afry-south/nlp-competence/blob/master/python/20190204%20-%20%231%20%5BTextClassification%5D/20190204-Text-Classification-IMDB.ipynb) & you can open it directly in Google Colab and start coding within seconds ([here's](https://colab.research.google.com/github/afry-south/nlp-competence/blob/master/python/20190204%20-%20%231%20%5BTextClassification%5D/20190204-Text-Classification-IMDB.ipynb) a deep link for the lazy)!
 
-Let's get on to the competence evening.
+So all in all, this is a straight copy of the Notebook from the competence evening.
 
 ---
 
