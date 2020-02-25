@@ -1,4 +1,17 @@
+---
+title: "NLP Competence Meeting #1: Text Classification IMDB"
+categories:
+  - Machine-Learning
+  - Competence
+tags:
+  - machine-learning
+  - competence
+  - deep-learning
+  - nlp
+---
+
 # 2019-02-04 AFRY NLP Competence Meeting: Text Classification
+Author: _Hampus Londögård_
 
 I've set a goal to create one blog post per Competence Meeting I've held at AFRY to spread the knowledge further. This goal will also grab all the older meetings, my hope is that I'll be finished before summer 2020, but we'll see.
 
