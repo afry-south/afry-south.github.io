@@ -2,7 +2,7 @@ remote_theme: "mmistakes/minimal-mistakes@4.18.1"
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 locale: "en-US"
-title                    : "AFRY - IT South"
+title                    : "IT South at AFRY"
 title_separator          : "-"
 subtitle                 : "The blog"
 words_per_minute         : 200
