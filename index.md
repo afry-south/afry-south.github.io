@@ -1,4 +1,4 @@
-## Welcome to AFRY South Blog
+## Welcome to AFRY IT South Blog
 
 Here we'll post our own internal blogs that aims to either A) spread competence/knowledge or B) just share some fun awesome thing you just did.  
 We'll also post our internal interviews ('meet').  
