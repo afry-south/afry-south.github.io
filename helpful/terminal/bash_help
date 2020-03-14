@@ -1,0 +1,63 @@
+up() {
+  local d=""
+  limit=$1
+  for ((i=1 ; i <= limit ; i++))
+    do
+      d=$d/..
+    done
+  d=$(echo $d | sed 's/^\///')
+  if [ -z "$d" ]; then
+    d=..
+  fi
+  cd $d
+}
+
+extract () {
+   if [ -f $1 ] ; then
+       case $1 in
+           *.tar.bz2)   tar xvjf $1    ;;
+           *.tar.gz)    tar xvzf $1    ;;
+           *.bz2)       bunzip2 $1     ;;
+           *.rar)       unrar x $1       ;;
+           *.gz)        gunzip $1      ;;
+           *.tar)       tar xvf $1     ;;
+           *.tbz2)      tar xvjf $1    ;;
+           *.tgz)       tar xvzf $1    ;;
+           *.zip)       unzip $1       ;;
+           *.Z)         uncompress $1  ;;
+           *.7z)        7z x $1        ;;
+           *)           echo "don't know how to extract '$1'..." ;;
+       esac
+   else
+       echo "'$1' is not a valid file!"
+   fi
+ }
+ 
+mkcdir () {
+    mkdir -p -- "$1" &&
+      cd -P -- "$1"
+}
+
+# Gör exakt vad man tror, riktigt bra
+https://explainshell.com
+# Greppa efter process och ta inte med grep kommandot själv
+ps aux | grep
+Om man kör t.ex. `ps aux | grep syslogd`, så kan man få t.ex:
+root               105   0.0  0.0  4441268    944   ??  Ss   28Feb20   0:46.34 /usr/sbin/syslogd
+davideverlof     90040   0.0  0.0  4268336    708 s003  S+    9:27AM   0:00.00 grep --color=auto syslogd
+ska man då t.ex. skriva ett script är det jobbigt att man får med `grep --color=auto syslogd`, för om man vill kolla om en process körs
+så vill man kanske använda exit-koden för att se om någon process matchade!
+Då kan man istället använda ett litet trick:
+ps aux | grep [s]yslogd
+Det fungerar genom att utnyttna regexp, typ. Du säger att du söker efter ett 's' som efterföljs av 'yslogd'. Men det blir ju inte sant för ditt sökuttryck - för där efterföljs ju s av ']'!
+# Enkelt och smidigt trick att visa radnummer i vilken fil som helst
+cat README.md | grep -n '^'
+`-n` visar radnummer och ^ är ju regex för början av rad - alltså kommer alla rader matchas och därmed printa hela filen - med radnummer!
+# Riktigt smidigare commando på mac är `pbpaste` och `pbcopy`
+`pbcopy` lägger saker i clipboarden, t.ex. `ls -la | pbcopy`
+`pbpaste` skriver clipboarden till stdout
+# `pbpaste` + `pbcopy` för att rensa clipboarden
+Om man har massa text som är t.ex. html-formatterad i clipboarden kan man rensa den med
+`pbpaste | pbcopy``
+Man kan iofs också använda `option` + `shift` + `cmd` + V för att pasta icke-formatterat - men det kan vara svårt att komma ihåg :
+# `cd -` går tillbaka till mappen man senast cd-ade från
