@@ -1,3 +1,14 @@
+---
+title: "How I created the Tipsrundan Email Generator"
+categories:
+  - Kotlin
+  - Email
+  - CSS
+  - HTML
+tags:
+  - kotlin
+---
+
 # Email Generation - Tipsrundan -
 At AFRY IT South I'm co-responsible with Hassan Ftouni at driving the competence. One of my initiatives that we both now drive is to have a biweekly, every second week for all you picky readers out there, newsletter called "Tipsrundan". 
 
