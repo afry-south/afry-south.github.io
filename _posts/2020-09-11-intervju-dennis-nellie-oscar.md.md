@@ -33,8 +33,9 @@ The programming have followed me throughout my studies and on various extra jobs
 I am so happy to be here and look forward to meeting you all at the office (or on MS Teams) in the near future!
 
 ### Outro
-Make sure to connect when you meet,
+It's always fun with new people joining us at Afry IT South, so make sure to connect whenever you see them! :)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0OTUwNzUyNSwxODYzMzA0NzUsLTkyMD
-YzOTk1OCwxMTI0MzEzOTM3LDEzMTIzMzEzN119
+eyJoaXN0b3J5IjpbLTIwNTE4OTUyMzgsMTQ0OTUwNzUyNSwxOD
+YzMzA0NzUsLTkyMDYzOTk1OCwxMTI0MzEzOTM3LDEzMTIzMzEz
+N119
 -->
