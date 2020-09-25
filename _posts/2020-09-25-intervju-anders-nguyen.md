@@ -27,6 +27,11 @@ Jag har extremt mycket åsikter om hamburgare
 Min favoritdesigner heter Martin Wallace, han är lite hit or miss med sina spel men när han är som bäst är han bäst. Spelet han gjort som också råkar vara mitt favoritspel heter 'Brass Lancashire' som är uppdateringen av hans orginalspel "Brass"
 Brass i detta fallet anspelar på pengar, deg, kosing. Det är ett spel där man spelar kol & stål baron under industrialismen i England och försöker muta in territorium. Jag spelar 1-2 partier i veckan digitalt och så ofta jag kan analogt. Jag vinner aldrig.
 
+#### Låter kul! Visste du om att Malmökontoret har en brädspelsklubb?
+Jag har hört det, det fanns en i Stockholm också, så scenen lever! 
+
+#### [Random brädspelssnack] Back to topic, har du något som du är extra stolt över att ha lyckats med i jobbet, rent programmatiskt? Till exempel Open Source, eget projekt och så vidare.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzY2ODA0MzA1XX0=
+eyJoaXN0b3J5IjpbLTgwOTIwNDc1OV19
 -->
