@@ -61,7 +61,14 @@ Det är ett bibliotek för att sätta ihop komponenter för att bygga visualiser
 Oooh, bra frågor!
 När jag började med frontend så blev jag väldigt förvånad att det gick så snabbt att skapa prototyper. Nu när jag har rotat ”under the hood”, så gillar jag att jobba optimering av storleken på webappen, prestandaoptimeringar i termer av rendering av olika objekt i UI:t. Det som är givande i slutet av dagen är att kunna observera att ens webapp har blivit snabbare. :D
 
-#### Ma
+#### Några bra tips på verktyg till att genomföra sådana optimeringar? Något speciellt du följer för att hålla dig up-to-date med branschen?
+Mycket av optimeringar som man kan göra för sin webapp går att hitta via [chrome-devtools](https://developers.google.com/web/tools/chrome-devtools). Chrome dev tools försöker då visualisera bottle necks i appen. Utöver det kan man använda webpack(populär bundler) för att visualisera dependencies, Bottle necks etc. För att hålla mig uppdaterad använder jag medium, github, stack overflow, linkedin :D 
+
+#### Nice! Då vet man vem man skall fråga om lite JS-optimeringar! Något annat du vill lyfta?
+Nej inte så precis.
+
+#### Extra:
+Jag v
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxNjUwOTczNV19
+eyJoaXN0b3J5IjpbMTQ1NTIxMjcwN119
 -->
