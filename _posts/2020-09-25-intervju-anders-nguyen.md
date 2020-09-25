@@ -48,8 +48,20 @@ Jag kör en del bouldering(klättring inomhus utan rep), gymmar samt springer en
 
 #### Kul! Många som kör bouldering! Har du något du är extra stolt över att ha gjort i jobbet eller privat tro?
 Oohh, bra fråga, ska fundera lite på denna.
-... En stund senare ....
- 
+... En stund senare ...
+ Första PR till ett oss projekt. Jag brinner för knowledge sharing och att kunna dela mig sig av sin kod, men också ta konstruktiv kritik innan man merge:a sin PR till projektet har varit väldigt givande. Sen är det ju även en bonus att dela sin kod med resten av världen :D
+
+#### Coolt! Vad för projekt var det om man kan fråga?
+ [picasso.js]([https://github.com/qlik-oss/picasso.js](https://github.com/qlik-oss/picasso.js))
+
+#### Det var nytt för mig att Qlik har Open Source på detta sätt, vad gör Picasso.js?
+Det är ett bibliotek för att sätta ihop komponenter för att bygga visualiseringar
+
+#### Vad som frontendutvecklare är det roligaste med dagarna?
+Oooh, bra frågor!
+När jag började med frontend så blev jag väldigt förvånad att det gick så snabbt att skapa prototyper. Nu när jag har rotat ”under the hood”, så gillar jag att jobba optimering av storleken på webappen, prestandaoptimeringar i termer av rendering av olika objekt i UI:t. Det som är givande i slutet av dagen är att kunna observera att ens webapp har blivit snabbare. :D
+
+#### Ma
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5ODA3MDNdfQ==
+eyJoaXN0b3J5IjpbMTYxNjUwOTczNV19
 -->
