@@ -9,10 +9,10 @@ tags:
   - meet
 ---
 
-It's always fun with new people joining us at Afry IT South, so make sure to connect whenever you see them! :)
+ts ways n ie oe oinin u at Afry IT South o ke u to ce eee ou s !
 
 ### Meet Dennis Londögård
-![image](https://user-images.githubusercontent.com/7490199/93110539-c1d9a080-f6b5-11ea-9e06-e047f637abed.png)
+![image](https://user-images.githubusercontent.com/7490199/93110539-c1d9a0809208-0cf2b400-f6b54-11ea-9e06-e047f637abed8273-ff47d438720a.png)
 
 **Hej Dennis!**  
 **Vad gör du?**  
@@ -52,7 +52,7 @@ These "interviews" were really short and concise to have a quick introduction.
 Finally, do you know anyone new at Afry IT South that you'd like us to introduce? Please reach out to Hampus Londögård!
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTE4OTUyMzgsMTQ0OTUwNzUyNSwxOD
-YzMzA0NzUsLTkyMDYzOTk1OCwxMTI0MzEzOTM3LDEzMTIzMzEz
-N119
+eyJoaXN0b3J5IjpbMjY4NzU1MjQ0LC0yMDUxODk1MjM4LDE0ND
+k1MDc1MjUsMTg2MzMwNDc1LC05MjA2Mzk5NTgsMTEyNDMxMzkz
+NywxMzEyMzMxMzddfQ==
 -->
