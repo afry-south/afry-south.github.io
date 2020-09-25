@@ -38,6 +38,18 @@ Nja nej, jag vet inte. Tror inte det.
 
 ----
 ### Quick Introduction: Nguyen
+Jag heter Nguyen Lam och har jobbat i AFRY i lite över ett år. Jag har arbetat i industrin i 4 år som frontendutvecklare och sitter just nu även ute på uppdrag hos Skatteverket som frontendutvecklare.
+
+#### Vart pluggade du tidigare?
+Jag har pluggat civilingenjör inom datateknik med en specialisering inom bild o grafik
+
+#### Vad gör du på fritiden?
+Jag kör en del bouldering(klättring inomhus utan rep), gymmar samt springer en del när vädret tillåter :D!
+
+#### Kul! Många som kör bouldering! Har du något du är extra stolt över att ha gjort i jobbet eller privat tro?
+Oohh, bra fråga, ska fundera lite på denna.
+... En stund senare ....
+ 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTIwMjk5MV19
+eyJoaXN0b3J5IjpbLTQ5ODA3MDNdfQ==
 -->
