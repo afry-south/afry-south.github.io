@@ -68,7 +68,10 @@ Mycket av optimeringar som man kan göra för sin webapp går att hitta via [chr
 Nej inte så precis.
 
 #### Extra:
-Jag v
+Nguyen Lam skall nu börja dra i vår Frontend Kompetensgrupp (superkul!) och vill hitta folk som delar glädje för frontend med honom för att genomföra roliga projekt & lära sig mer om hur saker fungerar!
+Gå gärna med i slackkanalen #competence-frontend & se till att fylla i [enkäten](https://docs.google.com/forms/d/e/1FAIpQLScXZMHvYjeXw2O9vcXbAz36NjaET9n4v0LjjuDYp2jg9bHa5A/viewform) för att få mer åsikt i vad du/ni vill göra!
+
+Vet du någon du vill att vi borde introducera? Eller vill du själv bli introducerad? Hör gär
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1NTIxMjcwN119
+eyJoaXN0b3J5IjpbMTYzNjIwMjUyN119
 -->
