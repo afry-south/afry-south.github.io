@@ -7,6 +7,7 @@ tags:
   - meet
 ---
 ![Anders Hagsten](https://ca.slack-edge.com/TPK80KFM4-U019FCTB6FP-ffc6fc1bb8db-512)
+
 We're back with a few new introduction, one "older" recruit and a newer one. Introducing Anders Hagsten & Nguyen Lam!
 
 This is a bit of split between Swedish & English, I'm sorry for that.
