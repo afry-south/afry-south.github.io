@@ -1,8 +1,3 @@
-## Welcome to the blog of IT South at AFRY
+On this blog we'll post everything from internal blogs and Tipsrundan to introductions of new people.
 
-Here we'll post our own internal blogs that aims to either A) spread competence/knowledge or B) just share some fun awesome thing you just did.  
-We'll also post our internal interviews ('meet').  
-
-As there's no point in keeping this secret we decided to keep it public.
-
-Hope you enjoy!
+Trying to keep it light and awesome, hope you enjoy!

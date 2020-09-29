@@ -9,10 +9,10 @@ tags:
   - meet
 ---
 
-ts ways n ie oe oinin u at Afry IT South o ke u to ce eee ou s !
+It's always fun with new people joining us at Afry IT South, so make sure to connect whenever you see them! :)
 
 ### Meet Dennis Londögård
-![image](https://user-images.githubusercontent.com/7490199/93110539-c1d9a0809208-0cf2b400-f6b54-11ea-9e06-e047f637abed8273-ff47d438720a.png)
+![image](https://user-images.githubusercontent.com/7490199/93110539-c1d9a080-f6b5-11ea-9e06-e047f637abed.png)
 
 **Hej Dennis!**  
 **Vad gör du?**  
