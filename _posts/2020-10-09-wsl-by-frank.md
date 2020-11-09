@@ -39,12 +39,12 @@ Exactly what we need, let's try.
 ## Setup WSL
 In this article we will set up WSL1 with Ubuntu 2004 LTS distro. There is an updated version of WSL that requires a PC running Windows **Version 1903**  or higher, with  **Build 18362**  or higher. So if you do, I recommend you to try WSL2 instead for better performance and system compliances.
 
-​
+
 First step is to prepare to install WSL by enable this feature. In powershell (as Admin) type command
 ​
 
     PS > dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
-​
+
 
 Next, download a linux distro of your choice from the Microsoft Store, ie. Ubuntu 2004 LTS. Open the installed distro (as Admin) and set username and pass.
 ​
@@ -59,13 +59,13 @@ In your ~/.ssh folder, type:
 
     PS > ssh-keygen #To generate a new key-pair
 
-​
+
 Copy the public key
 ​
 
     PS > cat .\id_key.pub | clip.exe
 
-​
+
 Add the pub key to github (Profile -> Settings -> SSH and GPG keys). 
 ​
 
@@ -90,9 +90,8 @@ I suggest you follow this guide -> [VSCode remote wsl](https://code.visualstudio
 	.
 	.
 	.
-    $ cd /mnt/c/Users/fgc/code/myProj/
-    $ code.
-  
+	$ cd /mnt/c/Users/fgc/code/myProj/
+	$ code.
 
 We can see it as VSCode treats our WSL as a remote server in which it installs necessary executables to be able to work in the remote server's environment and filesystem.
 ​
@@ -100,26 +99,29 @@ We can see it as VSCode treats our WSL as a remote server in which it installs n
 ## About that SSH
 So we're done right? Now we can just edit files in our codebase and push it to our github repository? Wrong! As a quick solution (there are others) we can simulate the SSH process that we normally should have use if developing in linux. Since we already have our SSH key-pair set up in Windows and added to github we can just copy the files in our .ssh folder to WSL and add the private key to the ssh-agent running on WSL.
 
-	
+
 	$ cd ~
 	$ mkdir .ssh
 	$ cp /mnt/c/Users/fgc/.ssh/* ~/.ssh
-    
-    $ #start the ssh-agent in the background
-    $ eval $(ssh-agent -s)
-    $ > Agent pid 59566
-    
+	
+	$ #start the ssh-agent in the background
+	$ eval $(ssh-agent -s)
+	$ > Agent pid 59566
+	
 	$ ssh-add ~/.ssh/id_key
-​
 
 Almost done, since we copied the files from Windows file system, linux system have not sufficient permissions to read them so we have to re-write the permissions of the key-pair.
 ​
 
-    $ sudo chmod 600 id_key (user read/ write perms)
-    $ sudo chmod 644 id_key.pub (user read/ write, others read perms)
-​
-​
+```bash
+$ sudo chmod 600 id_key (user read/ write perms)
+$ sudo chmod 644 id_key.pub (user read/ write, others read perms)
+```
+
+
+
 ## Summing up
+
 So what have we actually done. We have all our development tools installed and created on the Windows side of our system (Git, Powershell, SSH keys, VSCode (extended), our code-base) but set VSCode up to run on our remote server and utilizes our SSH key (again created in Windows) on our linux system to be able to clone/push/pull via SSH from within WSL. How convenient, no duplicate code-bases, no need for a new terminal, we have access to the best of both worlds. 
 ​
 
