@@ -1,12 +1,24 @@
 ---
-toc: true
-layout: post
-description: "A three part blog (all included in this one) that goes through 1) How Kotlin Multiplatform works, 2) How to build a game (Snake) and finally 3) how to make it multiplatform."
-categories: [gradle, kotlin, game, multiplatform]
 title: "How to build and play Snake via Native Binary, JVM and JS/Browser (Kotlin)"
-comments: true
-author: Hampus Londögård
+categories:
+  - kotlin
+  - game
+  - multiplatform
+tags:
+  - kotlin
+  - game
+  - multiplatform
+  - snake
+toc: true
 ---
+
+A three part blog (all included in this one) that goes through 
+
+1. How Kotlin Multiplatform works (compiler and everything)
+2. How to build a game (Snake) and finally 
+3. how to make it multiplatform.
+
+**All the code is available [here](https://github.com/londogard/snake-js-jvm-native).**
 
 > **Disclaimer:** this post is pretty long and I recommend reading one part at a time (it's 3 parts).
 >
@@ -14,8 +26,6 @@ author: Hampus Londögård
 >
 > Finally, the first part is purely informational about how everything works and the second part is how to actually code the game. The second part is interactive and contains a lot of TODOs.
 > The third, and final, part covers how we are able to use the same code on JS/Browser & Native
-
-**All the code is available [here](https://github.com/londogard/snake-js-jvm-native).**
 
 ## Introduction
 
