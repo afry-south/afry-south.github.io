@@ -165,7 +165,7 @@ The final, and perhaps obvious, one I'd like to mention straight away is that pl
 
 Personally I see Kotlin Multiplatform as a great way to share core logic between different targets, but one must use it with care and not try to force it into being used everywhere in every way.
 
-## Part two: How to set up Multiplatform and build Snake
+## Part 2: How to set up Multiplatform and build Snake
 
 So first we need to understand how to set up a Multiplatform project. The [official guide](https://kotlinlang.org/docs/reference/mpp-create-lib.html) is actually really good, and if you're using IntelliJ it's a breeze to setup! Just as in the guide make sure to select `Library`.
 
