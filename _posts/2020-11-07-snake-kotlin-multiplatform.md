@@ -130,7 +130,7 @@ Thinking about the compiler, this means that the Backend Compiler automatically 
 
 You can take this concept and apply to anything such as IO , network & more - all which are included in the std-lib! 
 
-### Wrapping up how Native works
+### Summarizing how Native works
 
 Let's recollect what we've gone through
 
@@ -165,7 +165,7 @@ So all in all we can share our code between platforms which improves development
 The biggest "downside" is that even though we share the code we most likely will need some kind of specific code for the platform, for the GUI on iOS as an example. Perhaps [compose](https://www.jetbrains.com/lp/compose/) can help us get closer to that reality soon - who knows.
 The final, and perhaps obvious, one I'd like to mention straight away is that platform specific libraries of course are not usable on multiplatform. This includes libraries such as React (JS) & `ncurses` (native).
 
-Personally I see Kotlin Multiplatform as a great way to share core logic between different targets, but one must use it with care and not try to force it into being used everywhere in every way.
+Personally I see Kotlin Multiplatform as a great way to **share core logic** between different targets, but one must use it with care and **not try to force it** into being used everywhere in every way.
 
 ## Part 2: How to set up Multiplatform and build Snake
 
@@ -244,8 +244,8 @@ fun main() {
 }
 ```
 
-What are we doing?
-`JFrame` was refactored `GUI` which then is a subclass of `JFrame`, with a few extra attributes were added such as `defaultCloseOperation = EXIT_ON_CLOSE` that makes sure the program exits if we close the window, feel free to test it out!
+What are we doing?  
+`JFrame` was refactored `GUI` which then is a subclass of `JFrame`, with a few extra attributes added such as `defaultCloseOperation = EXIT_ON_CLOSE` that makes sure the program exits if we close the window, feel free to test it out!
 Further a `Board` was added which extends `JPanel`, it's in the `Board` the game will be rendered. 
 Finally, `add(Board())` allows us to add our `Board`  to the `JFrame`.
 
@@ -620,7 +620,7 @@ Exercises left for the reader:
 
 ## Part 3: True multiplatform (moving to JS & Native)
 
-First off, this part is more of a reader exercise. If you want the code please go to the GitHub repository.
+First off, this part is more of a reader exercise. If you want the code please go to the [GitHub repository](https://github.com/londogard/snake-js-jvm-native).
 
 All the snake-related code that isn't in your `main.kt`-file should be moved into `src/commonMain/kotlin` which makes it **multiplatform**-code. This means that it can target JS, Native & JVM instantly! 
 
@@ -730,4 +730,4 @@ All the code is available [here](https://github.com/londogard/snake-js-jvm-nativ
 
 Thanks!
 
-~Hampus 
+~Hampus
