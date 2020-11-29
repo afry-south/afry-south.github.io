@@ -5,6 +5,8 @@ locale: "en-US"
 title                    : "IT South at AFRY"
 title_separator          : "-"
 subtitle                 : "The blog"
+description: >- # this means to ignore newlines until "baseurl:"
+  AFRY IT South blog.
 words_per_minute         : 200
 breadcrumbs: true  # disabled by default
 search                   : true # true, false (default)
