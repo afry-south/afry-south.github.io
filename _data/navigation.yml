@@ -1,6 +1,10 @@
 main:
   - title: "Posts"
     url: /posts/
+  - title: "Competence"
+    url: /competence-groups/
+  - title: "Tipsrundan"
+    url: /tipsrundan/
   - title: "Categories"
     url: /categories/
   - title: "Tags"
