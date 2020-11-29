@@ -9,6 +9,8 @@ words_per_minute         : 200
 breadcrumbs: true  # disabled by default
 search                   : true # true, false (default)
 search_full_content      : true # true, false (default)
+comments:
+  provider               : "utterances"
 #search_provider          : algolia # lunr (default), algolia
 #algolia:
 #  application_id         : QB6HVGBSBA # YOUR_APPLICATION_ID
@@ -41,8 +43,11 @@ kramdown:
 include:
   - .htaccess
   - _pages
-  - tipsrundan
-  - lunches
+
+collections:
+  tipsrundan:
+    output: true
+    permalink: /:collection/:path/
 
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
@@ -56,9 +61,9 @@ defaults:
     values:
       layout: single
       show_date: true
+      comments: true
       author_profile: true
       read_time: true
-      comments: true
       share: true
       related: true
   # tipsrundan
@@ -67,6 +72,15 @@ defaults:
       type: tipsrundan
     values:
       layout: single
+      show_date: true
+      comments: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
 
 
 # Plugins (previously gems:)
