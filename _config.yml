@@ -1,4 +1,4 @@
-remote_theme: "mmistakes/minimal-mistakes@4.18.1"
+remote_theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 locale: "en-US"
@@ -39,6 +39,10 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
+permalink: /:categories/:title/
+paginate: 5 # amount of posts to show
+paginate_path: /page:num/
+
 # Reading Files
 include:
   - .htaccess
@@ -68,7 +72,7 @@ defaults:
       related: true
   # tipsrundan
   - scope:
-      path: ""
+      path: "_tipsrundan"
       type: tipsrundan
     values:
       layout: single
@@ -76,12 +80,18 @@ defaults:
       comments: true
   # _pages
   - scope:
-      path: ""
+      path: "_pages"
       type: pages
     values:
       layout: single
       author_profile: true
 
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
 
 # Plugins (previously gems:)
 plugins:
