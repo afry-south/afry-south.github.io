@@ -17,7 +17,9 @@ There's some rules attached to how you can be paid.
 
 ## Competence Groups
 
-Here are the current competence groups, but please not you don't need to be in a competence group to actually work on your competence!
+Here are the current competence groups, feel free to add new ones if you feel like your area of interest is missing!
+
+Also note that there's more ways to broaden your competence.
 
 ### Machine Learning
 Our Machine Learning group is run by Hampus Londögård and has previously mainly focused on Natural Language Processing (NLP), now moving into all (image, tabular & more).
