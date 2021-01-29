@@ -102,8 +102,14 @@ point.x // 1
 `Sequence` ("lazy list") and its use-cases.
 For Scala you need to use `view` or `Stream` to achieve lazyness.
 
+A lazy list is great if you know that you'll somehow short-circuit the operations, like ending the whole thing by `.take(3)` or `.firstOrNull`.  
+By having a lazy list you don't move one collection to the other, but rather one element at a time, see image.
+![lazy-vs-non](https://typealias.com/img/guides/sequences-illustrated-guide/order-of-operations.png)
 
-	- **[When to Use Sequences - Dave Leeds on Kotlin (typealias.com)](https://typealias.com/guides/when-to-use-sequences/)**
+This is really good if you have expensive operations running inside your transformations. Another good thing about this is that if a intermediate object is really larger you're not gonna blow up memory by this.  
+Obviously this is not without hidden costs, such as the possibility of the underlying list-structure growing multiple times at the end (as for each time size of previous list is too small it doubles) and that if you have a stateful intermediate transformation such as `sort` it'll calculate all the previous transformations as you can't `sort` without the full list.
+
+For more information on when to use what read this wonderful blog - [When to Use Sequences](https://typealias.com/guides/when-to-use-sequences/)!
 
 ### Val vs Var & Mutability
 A lot of people seem to think that `val` == immutable, which is not right!
