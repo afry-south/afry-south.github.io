@@ -16,8 +16,9 @@ layout: archive
 </ul>
 
 {% assign entries_layout = page.entries_layout | default: 'list' %}
-{% assign postsByYear = site.tipsrundan | where_exp: "item", "item.hidden != true" | group_by_exp: 'tipsrundan', 'tipsrundan.date | date: "%Y" | sort: "%Y" | reverse ' %}
-{% for year in postsByYear %}
+{% assign postsByYear = site.tipsrundan | where_exp: "item", "item.hidden != true" | group_by_exp: 'tipsrundan', 'tipsrundan.date | date: "%Y"' %}
+{% assign sortedPostByYear = postsByYear | reverse %}
+{% for year in sortedPostByYear %}
   <section id="{{ year.name }}" class="taxonomy__section">
     <h2 class="archive__subtitle">{{ year.name }}</h2>
     <div class="entries-{{ entries_layout }}">
