@@ -33,7 +33,7 @@ The Bokcirkel is run by Fredrik Strandin and currently we're reading "Clean Code
 
 **Reading List**
 - [X] [Clean Code](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882)
-- [Designing Data-Intensive Applications](https://www.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/1449373321)
+- (Currently Reading) [Designing Data-Intensive Applications](https://www.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/1449373321)
 
 A new book will be initiated in January, make sure to join in!
 
