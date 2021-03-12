@@ -6,8 +6,11 @@
 I'll list some different categories with ideas and potential repositories set up.
 
 1. [JVM](#JVM)
-2. [Front End](#Front End)
-3. 
+2. [Front End](#Front_End)
+3. [Algorithms](#Algorithms)
+4. [Machine Learning](#Machine_Learning)
+5. [Continious Integration / Automation](Continious_Integration_/_Automation)
+6. [Random](Random)
 
 ### JVM
 - Learn more about the JVM. 
