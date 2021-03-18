@@ -29,13 +29,12 @@ You can find most of the previous competence evenings at our [GitHub](https://gi
 See the [Slack Group](https://buitsouth.slack.com/archives/CPMRY5JBZ) for more information.
 
 ### Bokcirkeln
-The Bokcirkel is run by Fredrik Strandin and currently we're reading "Clean Code". See the [Slack Group](https://buitsouth.slack.com/archives/C010WHF80RF) for more information.
+The Bokcirkel is run by Fredrik Strandin and currently we're reading "Designing Data-Intensive Applications". See the [Slack Group](https://buitsouth.slack.com/archives/C010WHF80RF) for more information.
 
 **Reading List**
+- [X] [The Mythical Man-Month](https://en.wikipedia.org/wiki/The_Mythical_Man-Month)
 - [X] [Clean Code](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882)
-- (Currently Reading) [Designing Data-Intensive Applications](https://www.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/1449373321)
-
-A new book will be initiated in January, make sure to join in!
+- [ ] [Designing Data-Intensive Applications](https://dataintensive.net/) (Currently Reading)
 
 ### Algorithms
 The Algorithm group is run by Linus Röman & Carl Ekerot.  
