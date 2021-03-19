@@ -14,6 +14,8 @@ You name it, ask us and we'll help.
 There's some rules attached to how you can be paid.  
 - Max 2h per activity, per month
 - Max 4h in total, per month
+- Time-code: A9310 
+    - Time should be taken as "Tid: Pengar" if you haven't discussed this with your customer
 
 ## Competence Groups
 
