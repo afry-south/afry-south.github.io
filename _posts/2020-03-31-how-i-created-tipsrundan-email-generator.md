@@ -1,11 +1,11 @@
 ---
 title: "How I created the Tipsrundan Email Generator"
 categories:
-  - Kotlin
-  - Email
-  - CSS
-  - HTML
+  - JVM
 tags:
+  - tipsrundan
+  - html
+  - css
   - kotlin
 ---
 

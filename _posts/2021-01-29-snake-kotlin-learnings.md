@@ -1,13 +1,11 @@
 ---
 title: "Snake - Learnings to take"
 categories:
-  - kotlin
-  - game
-  - multiplatform
+  - JVM
+  - Multiplatform
 tags:
   - kotlin
   - game
-  - multiplatform
   - snake
 toc: true
 ---

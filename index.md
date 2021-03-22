@@ -6,11 +6,8 @@ layout: home
 author_profile: true
 ---
 
-Welcome!
+Welcome to IT South @ AFRYs internal blog!  
+Here you'll find everything from blog-posts related to competence or other interesting things to our newsletter ([Tipsrundan](https://afry-south.github.io/tipsrundan/)).
 
-This is AFRY IT Souths internal blog that we decided to share with the world.  
-In here you'll find everything from blogs to our newsletter (Tipsrundan) where we try to share interesting concepts & tips.
-
-Enjoy!
-
-Reach out to Hampus Londögård (hampus.londogard@afry.com) if you happen to bump into any issues.
+Enjoy!  
+<sub><sup>If you bump into issues: Contact info available in [about](https://afry-south.github.io/about/).</sup></sub>

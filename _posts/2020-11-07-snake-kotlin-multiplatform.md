@@ -1,13 +1,11 @@
 ---
 title: "How to build and play Snake via Native Binary, JVM and JS/Browser (Kotlin)"
 categories:
-  - kotlin
-  - game
-  - multiplatform
+  - JVM
+  - Multiplatform
 tags:
   - kotlin
   - game
-  - multiplatform
   - snake
 toc: true
 ---

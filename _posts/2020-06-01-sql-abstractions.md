@@ -1,11 +1,11 @@
 ---
 title: "SQL - Different Abstraction Levels (& how I came to love SQLDelight)"
 categories:
-  - Kotlin
-  - SQL
-  - ORM
+  - JVM
+  - Database
 tags:
   - kotlin
+  - orm
 ---
 # SQL - different abstraction levels and how I came to love SQLDelight
 

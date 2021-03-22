@@ -1,12 +1,13 @@
 ---
 title: "A simple FAQ search engine in Swedish using fastText & Smooth Inverse Frequency"
 categories:
-  - python
-  - nlp
-  - faq
-  - unsupervised
+  - Machine-Learning
 tags:
   - nlp
+  - unsupervised
+  - faq
+  - covid
+  - python
 ---
 # CoViD-19 Swedish QA
 

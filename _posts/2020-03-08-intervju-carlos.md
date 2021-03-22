@@ -2,15 +2,8 @@
 title: "Meet: Carlos Velasco"
 categories:
   - Meet
-  - Front-End
-  - Competence
 tags:
-  - ux
-  - competence
-  - front-end
-  - pwa
   - interview
-  - meet
 ---
 ![Carlos](https://avatars0.githubusercontent.com/u/8251335?s=460&v=4)  
 Welcome to our second interview where Carlos Velasco (see image above) is in the spotlight!

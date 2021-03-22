@@ -2,11 +2,8 @@
 title: "Meet: Dennis Londögård, Nellie Carleke & Oscar Odestål"
 categories:
   - Meet
-  - New recruits
 tags:
-  - new
   - interview
-  - meet
 ---
 
 It's always fun with new people joining us at Afry IT South, so make sure to connect whenever you see them! :)

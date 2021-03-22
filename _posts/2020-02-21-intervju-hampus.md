@@ -2,15 +2,8 @@
 title: "Meet: Hampus Londögård"
 categories:
   - Meet
-  - Machine-Learning
-  - Competence
 tags:
-  - machine-learning
-  - competence
-  - deep-learning
-  - nlp
   - interview
-  - meet
 ---
 ![Hampus](https://oneportalstoragecdn.azureedge.net/oneprofilepictures/a35142fc-9754-4619-9d11-8544b7728409.png?v=20180302151258)  
 Welcome to our first interview/'meet X' where Hampus Londögård (see image above) is the first candidate, with more coming.  

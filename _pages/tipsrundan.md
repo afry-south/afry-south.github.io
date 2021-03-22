@@ -4,7 +4,5 @@ title: "Tipsrundan"
 layout: tipsrundan
 ---
 
-Tipsrundan is the internal newsletter filled with great tips for competence, and other, at AFRY IT South. For IT South employees it arrives once every second week (Tuesdays).
-
-If you've learned, read or watched anything interesting lately make sure to share it and we'll add it!  
-~ Hampus Londögård
+Tipsrundan is our (IT South@AFRY) internal newsletter which arrives every second week on Tuesdays. We try to keep it fresh and interesting with the best tips and articles from the internet or regionally.  
+We're happy to receive suggestions of content! See [about](https://afry-south.github.io/about/) for contact.

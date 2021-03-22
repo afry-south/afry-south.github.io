@@ -9,6 +9,7 @@ At AFRY IT South you get paid to grow your competence, which can be done in a fe
 - Competence Groups
 - Courses (Coursera etc)
 - Discussion nights (perhaps discussing a youtube-clip about how to make great presentations?)
+- Workshops, Seminars & more
 
 You name it, ask us and we'll help.  
 There's some rules attached to how you can be paid.  
@@ -16,12 +17,11 @@ There's some rules attached to how you can be paid.
 - Max 4h in total, per month
 - Time-code: A9310 
     - Time should be taken as "Tid: Pengar" if you haven't discussed this with your customer
+- **Drivers only:** Max 2h in preparations, per month (max 1 group)
 
 ## Competence Groups
 
 Here are the current competence groups, feel free to add new ones if you feel like your area of interest is missing!
-
-Also note that there's more ways to broaden your competence.
 
 ### Machine Learning
 Our Machine Learning group is run by Hampus Londögård and has previously mainly focused on Natural Language Processing (NLP), now moving into all (image, tabular & more).
