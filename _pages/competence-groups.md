@@ -24,11 +24,15 @@ There's some rules attached to how you can be paid.
 Here are the current competence groups, feel free to add new ones if you feel like your area of interest is missing!
 
 ### Machine Learning
-Our Machine Learning group is run by Hampus Londögård and has previously mainly focused on Natural Language Processing (NLP), now moving into all (image, tabular & more).
+Our Machine Learning group is run by Hampus Londögård and focuses on having fun & interesting workshops where a new concept or task is introduced and completed.
 
-You can find most of the previous competence evenings at our [GitHub](https://github.com/afry-south/nlp-competence).
+Find more info at [afry-south/competence/machine-learning](https://afry-south.github.io/competence/machine-learning).
 
-See the [Slack Group](https://buitsouth.slack.com/archives/CPMRY5JBZ) for more information.
+### Algorithms
+The Algorithm group is run by Linus Röman & Carl Ekerot.  
+Historically the evenings has mainly been about doing really fun and challenging coding games were you compete against each-other.  
+
+Find more info at [afry-south/competence/algorithm](https://afry-south.github.io/competence/algorithm).
 
 ### Bokcirkeln
 The Bokcirkel is run by Fredrik Strandin and currently we're reading "Designing Data-Intensive Applications". See the [Slack Group](https://buitsouth.slack.com/archives/C010WHF80RF) for more information.
@@ -37,11 +41,6 @@ The Bokcirkel is run by Fredrik Strandin and currently we're reading "Designing 
 - [X] [The Mythical Man-Month](https://en.wikipedia.org/wiki/The_Mythical_Man-Month)
 - [X] [Clean Code](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882)
 - [ ] [Designing Data-Intensive Applications](https://dataintensive.net/) (Currently Reading)
-
-### Algorithms
-The Algorithm group is run by Linus Röman & Carl Ekerot.  
-Historically the evenings has mainly been about doing really fun and challenging coding games were you compete against each-other.  
-See the [Slack Group](https://buitsouth.slack.com/archives/CPE14G5LH) for more information.
 
 ### Front-End
 The Front-End group is run by Nguyen Lam.  
