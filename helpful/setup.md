@@ -5,7 +5,7 @@ As this years Innovation Day is virtual it's helpful to make use of the best too
 **Recommended Editor**
 - [Jetbrains IDEA](https://www.jetbrains.com/products/) ([IntelliJ (JVM)](https://www.jetbrains.com/idea/), [PyCharm (Python)](https://www.jetbrains.com/pycharm/), [Webstorm (JS/TS)](https://www.jetbrains.com/webstorm/) etc)
   - Includes a real-time collaboration tool for coding called [**Code with Me**](https://www.jetbrains.com/code-with-me/), including audio/video chat.
-- [Visual Studio Code](https://code.visualstudio.com/)
+- [Visual Studio Code](https://code.visualstudio.com/) (Supports multiple languages)
   - Includes a real-time collaboration tool for coding called [**Live Share**](https://visualstudio.microsoft.com/services/live-share/)
 
 These are highly recommended because of the included real-time collaboration tools which enables pair-programming on a new level.
