@@ -18,8 +18,8 @@ Not interested in reading the whole article and just wanna play around with the 
 
 
 # Building a Swedish Named Entity Recognition (NER) model
-At _Londogard_ we aim to employ Natural Language Processing (NLP) in a practical manner. The goal is not to create the models of OpenAI or Google, but rather something that is usable from the get-go and performant leading to a simple to use product.  
-In this post I'll cover how we at Londogard developed a State-of-the-Art (SotA) Named Entity Recognition (NER) model for Swedish using Flair & huggingface. :tada:
+We aim to employ Natural Language Processing (NLP) in a practical manner. The goal is not to create the models of OpenAI or Google, but rather something that is usable from the get-go and performant leading to a simple to use product.  
+In this post I'll cover how I developed a State-of-the-Art (SotA) Named Entity Recognition (NER) model for Swedish using Flair & huggingface. :tada:
 
 It all started last weekend when I was allowed into the [streamlit.io](https://streamlit.io/)'s _sharing_ beta.   
 If you don't know what streamlit, here's an excerpt from their frontpage:
@@ -31,7 +31,7 @@ Essentially streamlit is a way to combine backend & frontend into a unified scri
 
 > In my opinion creating demos has never been simpler than with streamlit.io
 
-Back to the problem at hands, I wished to deploy a model through streamlit that actually was a meaningful experience where efficiency and performance are combined, according to the Londogard motto.    
+Back to the problem at hands, I wished to deploy a model through streamlit that actually was a meaningful experience where efficiency and performance are combined, according to the my own motto.    
 As such I embarked on the journey that was to deploy a NER model for _Swedish_ where Swedish actually isn't all to common in NLP. Lately _Kungliga Biblioteket_ has been trying to improve this through their [spaCy-contribution](https://github.com/Kungbib/swedish-spacy), which yet has to be included in spaCy, and their [HuggingFace-contributions](https://huggingface.co/KB/) where we can find BERT, Electra & Albert pre-trained.  
 My first idea was to take one of these and fine-tune to finally deploy, but the size of BERT is too large as is. 
 
