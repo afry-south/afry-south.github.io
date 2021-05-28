@@ -9,9 +9,8 @@ comments: true
 author: Hampus Londögård
 ---
 
-⚠️ This post is originally available from [blog.londogard](https://blog.londogard.com/pwa/til/2021/04/11/til-pwa-github-pages).
 
----
+⚠️ This post is originally available from [blog.londogard](https://blog.londogard.com/pwa/til/2021/04/11/til-pwa-github-pages).
 
 ### What
 Progressive Web Apps (PWAs) are web applications that are deployed on the Web and available on essentially every platform directly (Android, iOS, Linux, Windows, ... you name it).  
