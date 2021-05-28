@@ -8,9 +8,9 @@ comments: true
 author: Hampus Londögård
 ---
 
+
 ⚠️ This post is originally available from [blog.londogard](https://blog.londogard.com/nlp/machine-learning/workshop/2021/03/29/swedish-named-entity-recognition.html).
 
----
 
 Not interested in reading the whole article and just wanna play around with the model(s)? Head over to [londogard.com/ner](https://londogard.com/ner).
 ![image](https://user-images.githubusercontent.com/7490199/113611097-543f9280-964e-11eb-9e59-bd030c32ad0c.png)
