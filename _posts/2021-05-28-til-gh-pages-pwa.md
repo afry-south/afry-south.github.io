@@ -1,9 +1,11 @@
 ---
 toc: true
-layout: post
 description: "(Originally from blog.londogard.com) What are PWAs? How do I create or transform my web app into one? How can I deploy them (freely) via GitHub Pages?"
-categories: [Frontend]
-tags: [pwa, ]
+categories:
+  - Frontend
+tags:
+  - PWA
+toc: true
 title: "TIL: GitHub Pages + Progressive Web App (PWA) = ❤️"
 comments: true
 author: Hampus Londögård
