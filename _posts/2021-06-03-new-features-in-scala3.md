@@ -384,3 +384,23 @@ class Users {
 With this construct one can `.append` on an instance of `Users`.
 
 See example [on Scastie](https://scastie.scala-lang.org/kd35a/Paam0CoCSPGBczUGcLbeMA)
+
+## Type Class Derivation
+
+Introduces the derives keyword which generates type classes for specific instances
+on-the-fly. For example, one possible application would be an AsJson typeclass that
+you may derive in your case classes:
+
+```scala
+case class Person(name: String, age: Int) derives AsJson
+```
+
+In this example, `AsJson` would automatically inline an implementation of the
+`AsJson[A]` type class for `Person` with a default implementation. We must implement
+a function named `derived` in order for it to be used with the derives keyword. This
+function takes a `Mirror` of the deriving type, which is a trait that provides type-level
+information (sort of like reflections, but focused specifically on types).
+
+Type class derivation will allow libraries to add very nice extensions to user defined
+types, and has proven valuable in languages like Rust where it’s typically used for
+defining how types are serialized etc.
