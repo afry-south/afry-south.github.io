@@ -13,7 +13,7 @@ _Authors:_ Carl Ekerot and Fredrik Strandin
 In Scala 2 enums were never a first class citizen, instead we had to whack
 around with `Enumeration`.
 
-```
+```scala
 object HttpCode extends Enumeration {
   protected case class HttpCodeVal(i: Int, name: String, code: Int)
       extends super.Val(i, name)
@@ -33,7 +33,7 @@ equal to their name?_ A lot of syntax and types that needs to be
 remembered/looked up.
 
 Now let's do some pattern matching on our code.
-```
+```scala
 someCode match {
   case HttpCode.HTTP_OK => println("All fine n' dandy!")
   case HttpCode.HTTP_NOT_FOUND => println("Whoops, couldn't find the resource")
@@ -44,7 +44,7 @@ This code will generate a compiler warning, but won't fail to compile. Why?
 Because we're missing one case, for `HttpCode.HTTP_INTERNAL_SERVER_ERROR`. Lets
 add it!
 
-```
+```scala
 someCode match {
   case HttpCode.HTTP_OK => println("All fine n' dandy!")
   case HttpCode.HTTP_NOT_FOUND => println("Whoops, couldn't find the resource")
@@ -62,7 +62,7 @@ and play around with it yourself.
 ### Scala 3
 Let's see what Scala 3 brings to the table by recreating our previous example.
 
-```
+```scala
 enum HttpCode(val code: Int) {
   case HTTP_OK extends HttpCode(200)
   case HTTP_NOT_FOUND extends HttpCode(404)
@@ -75,7 +75,8 @@ println(s"Order: ${someCode.ordinal}, name: ${someCode.toString}, code: ${someCo
 
 Well that was much neater! Let's see what the compiler has to say about our
 pattern match:
-```
+
+```scala
 someCode match {
   case HttpCode.HTTP_OK => println("All fine n' dandy!")
   case HttpCode.HTTP_NOT_FOUND => println("Whoops, couldn't find the resource")
@@ -97,7 +98,7 @@ signature using the `with` keyword. For example, if we want to implement a
 function `cleanUp` where the argument should both implement traits `Closable`
 and `Freeable`, we could write:
 
-```
+```scala
 def cleanUp(resource: Closable with Freeable): Unit = {
   resource.close()
   resource.free()
@@ -135,7 +136,7 @@ _contravariant_ type, the intersecting type would be a union type instead:
 In Scala 2 we could use implicit classes to add functionality to already
 existing classes.
 
-```
+```scala
 case class Circle(radius: Double)
 
 implicit class CircleMaths(circle: Circle) {
@@ -152,7 +153,8 @@ println(f"Area: ${aCircle.area}%.2f")
 
 With Scala 3 we can instead use _extension methods_, which are quite similar in
 syntax.
-```
+
+```scala
 case class Circle(radius: Double)
 
 extension (circle: Circle) {
@@ -168,7 +170,8 @@ println(f"Area: ${aCircle.area}%.2f")
 Behind the scenes, an extension method is compiled into a function taking the
 value as a parameter. So it can also be called in the following manner if one
 would like to:
-```
+
+```scala
 println(f"Circumference of $aCircle is ${circumference(aCircle)}%.2f")
 ```
 
@@ -187,7 +190,7 @@ See example [on Scastie](https://scastie.scala-lang.org/CarlEkerot/m3tjwSzYTRiwO
 Opaque Type Aliases are useful when you want to add abstractions on top of
 existing types, without any overhead.
 
-```
+```scala
 object HttpLib {
   opaque type Code = Int
   object Code {
@@ -211,7 +214,7 @@ See example [on Scastie](https://scastie.scala-lang.org/kd35a/kwm4RwrtRluOwQ9qSe
 Functions may now have polymorphic types. This was previously only possible for
 methods. For example, this polymorphic method is allowed in Scala 2:
 
-```
+```scala
 def show[A](subject: A): String = println(subject)
 ```
 
@@ -221,7 +224,7 @@ since there’s no function type available.
 
 Scala 3 solves this by introducing polymorphic function types:
 
-```
+```scala
 val show: [A] => A => Unit = [A] => (subject: A) => println(subject)
 ```
 
@@ -231,7 +234,7 @@ this as a type in function arguments, class members and type definitions.
 In this example, we define a higher-order function that takes a subject of
 type `A`, and some function that transforms the subject to type `B`:
 
-```
+```scala
 def doTransform[A, B](subject: A, transform: [A] => A => B): B = {
   transform(subject)
 }
@@ -240,7 +243,7 @@ def doTransform[A, B](subject: A, transform: [A] => A => B): B = {
 A potential transform passed to this function could be a general string
 transform:
 
-```
+```scala
 val stringify: [A] => A => String = [A] => (x: A) => x.toString
 ```
 
@@ -250,7 +253,7 @@ See example [on Scastie](https://scastie.scala-lang.org/CarlEkerot/wi8vw63QRR2h4
 `given` and `using` can be used to add contextual functionality to a generic
 type.
 
-```
+```scala
 trait Ord[T] {
   def compare(x: T, y: T): Int
 }
@@ -308,7 +311,7 @@ defined in the same source file that they are being called from.
 ## Match Types
 Match Types gives pattern matching to types.
 
-```
+```scala
 type Elem[X] = X match {
   case String => Char
   case List[t] => t
@@ -368,7 +371,8 @@ See example [on Scastie](https://scastie.scala-lang.org/CarlEkerot/5ugYiTyxTaSFD
 
 ## Export clauses
 `export` can be used to export aliases to members of an object.
-```
+
+```scala
 case class User(name: String)
 class Users {
   val users = collection.mutable.ArrayBuffer.empty[User]
